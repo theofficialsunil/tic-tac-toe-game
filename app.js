@@ -16,7 +16,7 @@ function checkChoice() {
         turnO = false;
     }
     else {
-        alert("enter currect choice !");
+        alert("enter correct choice !");
         checkChoice();  
     }
 }
