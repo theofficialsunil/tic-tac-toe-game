@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    justify-content: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.container {
+    width: 100vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1.5vmin;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    background-color: #d8e4ff;
+    color: #0044ff;
+    font-size: 2rem;
+}
+.control {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;
+    align-content: center;
+}
+.control >button {
+    margin-right: 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #d8e4ff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color:#0a2472;
+}
+.result {
+    color: black;
+    background: radial-gradient(circle, #00ff88, #0044ff);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;
+    align-content: center;
+}
+.hidden {
+    display: none;
+}
